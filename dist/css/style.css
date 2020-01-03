@@ -9,10 +9,10 @@ html {
 .logo {
   position: absolute;
   display: block;
-  margin-left: 85rem;
+  margin-left: 69rem;
   margin-right: 16rem;
   top: 4rem;
-  width: 20rem;
+  width: 15rem;
   z-index: 2;
 }
 
@@ -29,7 +29,7 @@ html {
   height: 100vh;
 }
 
-.city {
+.beach {
   width: 100%;
   position: absolute;
   z-index: 1;
@@ -37,21 +37,35 @@ html {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  -webkit-filter: grayscale(80%);
-          filter: grayscale(80%);
-  margin-top: 35rem;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(white));
-  background-image: linear-gradient(white);
 }
 
 .title1 {
   position: absolute;
-  left: 77%;
-  top: 17%;
+  left: 51%;
+  top: 40%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  font-size: 5rem;
-  letter-spacing: 2rem;
+  font-size: 3rem;
+  letter-spacing: 1.5rem;
+  z-index: 2;
+}
+
+html {
+  font-size: 62.5%;
+  padding: 0rem;
+  margin-top: 0rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.word-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 8rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   z-index: 2;
 }
 

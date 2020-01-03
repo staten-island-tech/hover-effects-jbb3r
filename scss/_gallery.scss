@@ -7,31 +7,24 @@ html{
     box-sizing: border-box;
 }
 
-#grad1 {
-    height: 70rem;
-    background-image: linear-gradient((white,black););
-}
 .header {
     position: relative;
     height: 100vh;
 }
-.city {
+.beach {
     width: 100%;
     position: absolute;
     z-index: 1;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    filter: grayscale(80%);
-    margin-top: 35rem;
-    background-image: linear-gradient(white,black);
 }
 .title1 {
     position: absolute;
-    left: 77%;
-    top: 17%;
+    left: 51%;
+    top: 40%;
     transform: translate(-50%,-50%);
-    font-size: 5rem;
-    letter-spacing: 2rem;
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
     z-index:2;
 }

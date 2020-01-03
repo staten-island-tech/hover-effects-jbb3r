@@ -1,0 +1,13 @@
+html{
+    font-size: 62.5%;
+    padding: 0rem;
+    margin-top: 0rem;
+    box-sizing: border-box;
+}
+
+.word-container {
+    display: flex;
+    height: 8rem;
+    justify-content: space-evenly;
+    z-index:2;
+  }
