@@ -7,6 +7,10 @@ html{
     box-sizing: border-box;
 }
 
+#grad1 {
+    height: 70rem;
+    background-image: linear-gradient((white,black););
+}
 .header {
     position: relative;
     height: 100vh;
@@ -19,6 +23,8 @@ html{
     left: 50%;
     transform: translate(-50%,-50%);
     filter: grayscale(80%);
+    margin-top: 35rem;
+    background-image: linear-gradient(white,black);
 }
 .title1 {
     position: absolute;
