@@ -1,0 +1,31 @@
+@import "_variables.scss";
+
+html{
+    font-size: 62.5%;
+    padding: 0rem;
+    margin-top: 0rem;
+    box-sizing: border-box;
+}
+
+.header {
+    position: relative;
+    height: 100vh;
+}
+.city {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    filter: grayscale(80%);
+}
+.title1 {
+    position: absolute;
+    left: 77%;
+    top: 17%;
+    transform: translate(-50%,-50%);
+    font-size: 5rem;
+    letter-spacing: 2rem;
+    z-index:2;
+}

@@ -7,13 +7,11 @@ html{
     box-sizing: 0rem;
 }
 
-.title1 {
-    position: relative;
-    top: 84 rem;
-    margin-right: -16 rem;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 7rem;
-    letter-spacing:4rem;
-    z-index:2;
+.logo{
+    position: absolute;
+    display: block;
+    margin-left: 85rem;
+    margin-right: 16rem;
+    top: 4rem;
+    width: 20rem;
 }
