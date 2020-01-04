@@ -9,32 +9,34 @@
     <script src="https://kit.fontawesome.com/84828e1f13.js" crossorigin="anonymous"></script>
   </head>
 
-  <body> 
-    <header class="background">
-      <h1 class="title1">gallery.</h1>
-      <img class="cooltone" src="css/img/cooltone.jpg" alt=""/>
-    </header>
+  <body>
+    <div id="main">
+      <header class="background">
+        <h1 class="title1">gallery.</h1>
+        <img class="cooltone" src="css/img/cooltone.jpg" alt=""/>
+      </header>
 
-    <div class="word-container">
-        <div>projects.</div>
-        <div>about.</div>
-        <div>contact.</div>
-    </div>
+     <div class="word-container">
+          <div>projects.</div>
+          <div>about.</div>
+         <div>contact.</div>
+     </div>
 
-    <span style="font-size:5rem;cursor:pointer" onclick="openNav()"><i class="fas fa-bars"></i></span>
+     <span class="openbtn" style="font-size:5rem;cursor:pointer" onclick="openNav()"><i class="fas fa-bars"></i></span>
 
-    <div id="main" class="sidebar"> 
-          <a href="#">home.</a>
-          <a href="#" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
-    </div>
-    <script>
-      function openNav() {
-        document.getElementById("main").style.width = "30rem";
-      }
+      <div id="sidenav" class="sidebar"> 
+            <a href="#">home.</a>
+           <a href="#" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+      </div>
+      <script>
+        function openNav() {
+          document.getElementById("sidenav").style.width = "25rem";
+        }
       
-      function closeNav() {
-        document.getElementById("main").style.width = "0rem";
-      }
-      </script>
+       function closeNav() {
+          document.getElementById("sidenav").style.width = "0rem";
+        }
+        </script>
+      </div> 
   </body>
 </html>
