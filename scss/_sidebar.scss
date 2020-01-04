@@ -1,0 +1,36 @@
+.sidebar {
+    height: 100%;
+    width: 30rem;
+    position: fixed;
+    z-index:3;
+    top: 0;
+    left: 0;
+    background-color: rgb(250, 254, 255);
+    overflow-x: hidden; 
+    transition: 0.5s;
+    padding-left: 3rem;
+    padding-top: 8rem;
+    font-size: 5rem;
+    letter-spacing: .5rem;
+    text-decoration: none;
+}
+
+.sidebar a {
+    transition: 0.5s;
+    padding-left: 3rem;
+    font-size: 5rem;
+    letter-spacing: .5rem;
+    text-decoration: none;
+    color: black;
+}
+.sidebar .closebtn {
+    position: absolute;
+    top:1rem;
+    right:1rem;
+    font-size: 3.5rem;
+    color: black;
+}
+
+.span {
+    color:white;
+}

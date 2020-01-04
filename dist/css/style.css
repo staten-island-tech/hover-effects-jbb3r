@@ -23,20 +23,12 @@ html {
 
 .title1 {
   position: absolute;
-  left: 53.5%;
+  left: 52.5%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   font-size: 2rem;
   z-index: 2;
-}
-
-html {
-  font-size: 62.5%;
-  padding: 0rem;
-  margin-top: 0rem;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .word-container {
@@ -53,6 +45,47 @@ html {
   z-index: 2;
   padding-right: 30rem;
   padding-left: 40rem;
+  padding-top: 3rem;
+}
+
+.sidebar {
+  height: 100%;
+  width: 30rem;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-color: #fafeff;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-left: 3rem;
+  padding-top: 8rem;
+  font-size: 5rem;
+  letter-spacing: .5rem;
+  text-decoration: none;
+}
+
+.sidebar a {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-left: 3rem;
+  font-size: 5rem;
+  letter-spacing: .5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 3.5rem;
+  color: black;
+}
+
+.span {
+  color: white;
 }
 
 body {
