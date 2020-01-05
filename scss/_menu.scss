@@ -1,11 +1,23 @@
 .word-container {
     display: flex;
-    transform: translateY(30rem);
+    transform: translateY(-50rem);
     letter-spacing: .75rem;
     font-size: 4rem;
     justify-content: space-evenly;
     z-index:2;
-    padding-right: 30rem;
+    padding-right: 40rem;
     padding-left: 40rem;
-    padding-top: 3rem;
+    font-family: 'Ibarra Real Nova', serif;
   }
+
+.projects:hover {
+  color: $dark;
+}
+
+.about:hover {
+  color: $dark;
+}
+
+.contact:hover {
+  color: $dark;
+}

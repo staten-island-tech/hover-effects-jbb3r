@@ -1,3 +1,5 @@
+@import "_variables.scss";
+
 .sidebar {
     height: 100%;
     width: 25rem;
@@ -5,22 +7,23 @@
     z-index:3;
     top: 0;
     left: 0;
-    background-color: rgb(250, 254, 255);
+    background-color: $lightBlue;
     overflow-x: hidden; 
     transition: 0.5s;
-    padding-top: 8rem;
+    padding-top: 9rem;
     font-size: 5rem;
     letter-spacing: .5rem;
     text-decoration: none;
+    font-family: 'Ibarra Real Nova', serif;
 }
 
 .sidebar a {
     transition: 0.5s;
     padding-left: 3rem;
-    font-size: 5rem;
+    font-size: 4rem;
     letter-spacing: .5rem;
     text-decoration: none;
-    color: black;
+    color: $black;
 }
 
 .sidebar .closebtn {
@@ -28,10 +31,28 @@
     top:1rem;
     right:1rem;
     font-size: 3.5rem;
-    color: black;
+    color: $black;
 }
-
 .openbtn {
     position: fixed;
+    background: transparent;
+    border: none;
+    top: 4%;
+    left: 2%;
 }
 
+#main {
+    transition: margin-left .5s;
+}
+
+.sidebar input[type=text] {
+    padding: 2rem;
+    border: none;
+    margin-top: .5rem;
+    background-color: $lightBlue;
+    font-size: 4rem;
+    letter-spacing: .5rem;
+    margin-left: 1rem;
+    font-family: 'Ibarra Real Nova', serif;
+    width: 75%;
+}

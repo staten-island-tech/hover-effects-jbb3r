@@ -1,51 +1,30 @@
-html {
-  font-size: 62.5%;
-  padding: 0rem;
-  margin-top: 0rem;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.header {
-  position: relative;
-  height: 100vh;
-}
-
-.cooltone {
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-.title1 {
-  position: absolute;
-  left: 52.5%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  font-size: 2rem;
-  z-index: 2;
-}
-
 .word-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-transform: translateY(30rem);
-          transform: translateY(30rem);
+  -webkit-transform: translateY(-50rem);
+          transform: translateY(-50rem);
   letter-spacing: .75rem;
   font-size: 4rem;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   z-index: 2;
-  padding-right: 30rem;
+  padding-right: 40rem;
   padding-left: 40rem;
-  padding-top: 3rem;
+  font-family: 'Ibarra Real Nova', serif;
+}
+
+.projects:hover {
+  color: #787878;
+}
+
+.about:hover {
+  color: #787878;
+}
+
+.contact:hover {
+  color: #787878;
 }
 
 .sidebar {
@@ -59,17 +38,18 @@ html {
   overflow-x: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  padding-top: 8rem;
+  padding-top: 9rem;
   font-size: 5rem;
   letter-spacing: .5rem;
   text-decoration: none;
+  font-family: 'Ibarra Real Nova', serif;
 }
 
 .sidebar a {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   padding-left: 3rem;
-  font-size: 5rem;
+  font-size: 4rem;
   letter-spacing: .5rem;
   text-decoration: none;
   color: black;
@@ -85,6 +65,65 @@ html {
 
 .openbtn {
   position: fixed;
+  background: transparent;
+  border: none;
+  top: 4%;
+  left: 2%;
+}
+
+#main {
+  -webkit-transition: margin-left .5s;
+  transition: margin-left .5s;
+}
+
+.sidebar input[type=text] {
+  padding: 2rem;
+  border: none;
+  margin-top: .5rem;
+  background-color: #fafeff;
+  font-size: 4rem;
+  letter-spacing: .5rem;
+  margin-left: 1rem;
+  font-family: 'Ibarra Real Nova', serif;
+  width: 75%;
+}
+
+html {
+  font-size: 62.5%;
+  padding: 0rem;
+  margin-top: 0rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.background {
+  position: relative;
+  height: 100vh;
+}
+
+.slideshow {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.title1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 2rem;
+  z-index: 2;
+}
+
+.title1:hover {
+  color: #787878;
 }
 
 body {
