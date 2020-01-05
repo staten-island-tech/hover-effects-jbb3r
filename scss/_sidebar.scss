@@ -7,7 +7,7 @@
     z-index:3;
     top: 0;
     left: 0;
-    background-color: $lightBlue;
+    background-color: $lightPink;
     overflow-x: hidden; 
     transition: 0.5s;
     padding-top: 9rem;
@@ -23,7 +23,11 @@
     font-size: 4rem;
     letter-spacing: .5rem;
     text-decoration: none;
-    color: $black;
+    color: $dark;
+}
+
+.sidebar a:hover {
+    color: $light;
 }
 
 .sidebar .closebtn {
@@ -31,7 +35,11 @@
     top:1rem;
     right:1rem;
     font-size: 3.5rem;
-    color: $black;
+    color: $dark;
+}
+
+.sidebar .closebtn:hover {
+    color: $light;
 }
 .openbtn {
     position: fixed;
@@ -39,6 +47,7 @@
     border: none;
     top: 4%;
     left: 2%;
+    color: $white;
 }
 
 #main {
@@ -49,7 +58,7 @@
     padding: 2rem;
     border: none;
     margin-top: .5rem;
-    background-color: $lightBlue;
+    background-color: $lightPink;
     font-size: 4rem;
     letter-spacing: .5rem;
     margin-left: 1rem;
