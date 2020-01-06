@@ -39,15 +39,18 @@
     <section id="header2" class="header2">
       <h2 class="title2">projects.</h2>
       <div class="projectwork">
-        <div class="red"> project gallery.
+        <div class="f1"> project gallery.
         </div>
-        <div class="green">
+        <div class="f2">
           <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-          <img class="flexcloud"src="css/img/slideshow/pinkcloud.jpg">
+          <img class="flexcloud"src="css/img/slideshow2/ss1.jpg">
+          <img class="flexcloud"src="css/img/slideshow2/ss2.jpg">
           <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
         </div>
-        <div class="blue"> view more.</div>
+        <div class="f3"> view more.</div>
       </div>
+      <button class="ssright" onclick="plusDivs(-1)"><i class="fas fa-chevron-right"></i></button>
+      <button class="ssleft" onclick="plusDivs(+1)"><i class="fas fa-chevron-left"></i></button>
     </section>
 
    <button class="openbtn" style="font-size:5rem;cursor:pointer" onclick="openNav()"><i class="fas fa-bars"></i></button>
@@ -58,7 +61,7 @@
          <input type="text" placeholder="search.">
     </div>
 
-    <script>
+    <script> //for navigation bar
       function openNav() {
         document.getElementById("sidenav").style.width = "25rem";
         document.getElementById("main").style.marginLeft = "25rem";
@@ -68,6 +71,9 @@
         document.getElementById("sidenav").style.width = "0rem";
         document.getElementById("main").style.marginLeft = "0rem";
       }
+      </script>
+
+      <script> //for header2 slideshow gallery
       </script>
    </div>
   </body>

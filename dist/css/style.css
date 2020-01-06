@@ -30,7 +30,7 @@
   font-family: 'Ibarra Real Nova', serif;
 }
 
-.red {
+.f1 {
   background: #ffd9e7;
   text-align: center;
   font-size: 3rem;
@@ -38,7 +38,7 @@
   color: #8f63c9;
 }
 
-.green {
+.f2 {
   background: #ffd9e7;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -59,7 +59,7 @@
   padding-right: 4rem;
 }
 
-.blue {
+.f3 {
   background: #ffd9e7;
   text-align: center;
   font-size: 3rem;
@@ -71,8 +71,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-transform: translateY(-50rem);
-          transform: translateY(-50rem);
+  -webkit-transform: translateY(-55rem);
+          transform: translateY(-55rem);
   letter-spacing: .75rem;
   font-size: 4rem;
   -webkit-box-pack: space-evenly;

@@ -24,14 +24,14 @@
     font-family: 'Ibarra Real Nova', serif;
 }
 
-.red {
+.f1 {
     background: $lightPink;
     text-align: center;
     font-size: 3rem;
     padding-top: 3rem;
     color: $purple;
   }
-  .green {
+  .f2 {
     background: $lightPink;
     flex-direction: row;
     display: flex;
@@ -47,7 +47,7 @@
       padding-left: 4rem;
       padding-right: 4rem;
   }
-  .blue {
+  .f3 {
     background: $lightPink;
     text-align: center;
     font-size: 3rem;
