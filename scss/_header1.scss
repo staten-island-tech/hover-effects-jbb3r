@@ -76,3 +76,29 @@ html{
 .title1:hover {
     color: $purple;
 }
+
+// for menu
+.word-container {
+  display: flex;
+  transform: translateY(-55rem);
+  letter-spacing: .75rem;
+  font-size: 4rem;
+  justify-content: space-evenly;
+  z-index:2;
+  padding-right: 40rem;
+  padding-left: 40rem;
+  font-family: 'Ibarra Real Nova', serif;
+  color: $slate;
+}
+
+.projects:hover {
+color: $purple;
+}
+
+.about:hover {
+color: $purple;
+}
+
+.contact:hover {
+color: $purple;
+}

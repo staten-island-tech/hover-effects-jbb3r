@@ -67,34 +67,14 @@
   padding-bottom: 3rem;
 }
 
-.word-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-transform: translateY(-55rem);
-          transform: translateY(-55rem);
-  letter-spacing: .75rem;
-  font-size: 4rem;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  z-index: 2;
-  padding-right: 40rem;
-  padding-left: 40rem;
-  font-family: 'Ibarra Real Nova', serif;
-  color: #f3eaea;
+.ssrightbtn {
+  background: transparent;
+  border: none;
 }
 
-.projects:hover {
-  color: #8f63c9;
-}
-
-.about:hover {
-  color: #8f63c9;
-}
-
-.contact:hover {
-  color: #8f63c9;
+.ssleftbtn {
+  background: transparent;
+  border: none;
 }
 
 .sidebar {
@@ -278,6 +258,36 @@ html {
 }
 
 .title1:hover {
+  color: #8f63c9;
+}
+
+.word-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translateY(-55rem);
+          transform: translateY(-55rem);
+  letter-spacing: .75rem;
+  font-size: 4rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  z-index: 2;
+  padding-right: 40rem;
+  padding-left: 40rem;
+  font-family: 'Ibarra Real Nova', serif;
+  color: #f3eaea;
+}
+
+.projects:hover {
+  color: #8f63c9;
+}
+
+.about:hover {
+  color: #8f63c9;
+}
+
+.contact:hover {
   color: #8f63c9;
 }
 

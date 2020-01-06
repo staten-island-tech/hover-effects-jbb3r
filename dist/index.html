@@ -28,13 +28,20 @@
       <div class="gallery">
       <h1 class="title1">gallery.</h1>
     </div>
+    
+    <div class="word-container">
+      <div class="projects">projects.</div>
+      <div class="about">about.</div>
+      <div class="contact">contact.</div>
+     </div>
+
     </section>
 
     <div class="word-container">
       <div class="projects">projects.</div>
       <div class="about">about.</div>
       <div class="contact">contact.</div>
-  </div>
+     </div>
 
     <section id="header2" class="header2">
       <h2 class="title2">projects.</h2>
@@ -42,15 +49,13 @@
         <div class="f1"> project gallery.
         </div>
         <div class="f2">
-          <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+          <div><button class="ssleftbtn" onclick="plusDivs(+1)"><i class="fas fa-chevron-left"></i></button></div>
           <img class="flexcloud"src="css/img/slideshow2/ss1.jpg">
           <img class="flexcloud"src="css/img/slideshow2/ss2.jpg">
-          <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+          <div><button class="ssrightbtn" onclick="plusDivs(-1)"><i class="fas fa-chevron-right"></i></button></div>
         </div>
         <div class="f3"> view more.</div>
       </div>
-      <button class="ssright" onclick="plusDivs(-1)"><i class="fas fa-chevron-right"></i></button>
-      <button class="ssleft" onclick="plusDivs(+1)"><i class="fas fa-chevron-left"></i></button>
     </section>
 
    <button class="openbtn" style="font-size:5rem;cursor:pointer" onclick="openNav()"><i class="fas fa-bars"></i></button>
@@ -75,22 +80,22 @@
 
       <script> //for header2 slideshow gallery
       var slideIndex = 1;
-showDivs(slideIndex);
+      showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
+      function plusDivs(n) {
+      showDivs(slideIndex += n);
+        }
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
+      function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("flexcloud");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+      }
       </script>
    </div>
   </body>
