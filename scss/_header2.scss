@@ -1,0 +1,16 @@
+.header2 {
+    position: relative;
+    height: 100vh;
+    background-color: $slate;
+    margin-top: 0rem;
+}
+
+.title2 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-family: 'Ibarra Real Nova', serif;
+    color: $deep;
+    font-size: 8rem;
+    letter-spacing: .5rem;
+}
