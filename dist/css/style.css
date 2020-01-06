@@ -8,11 +8,63 @@
 .title2 {
   position: absolute;
   top: 30%;
-  left: 20%;
+  left: 15%;
   font-family: 'Ibarra Real Nova', serif;
   color: #2a054d;
   font-size: 8rem;
   letter-spacing: .5rem;
+}
+
+.projectwork {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 70rem;
+  -webkit-transform: translateY(15rem);
+          transform: translateY(15rem);
+  width: 100rem;
+  font-family: 'Ibarra Real Nova', serif;
+}
+
+.red {
+  background: #ffd9e7;
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 3rem;
+  color: #8f63c9;
+}
+
+.green {
+  background: #ffd9e7;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.5rem;
+  padding: 3rem;
+  color: #8f63c9;
+}
+
+.flexcloud {
+  width: 70%;
+  height: auto;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.blue {
+  background: #ffd9e7;
+  text-align: center;
+  font-size: 3rem;
+  color: #8f63c9;
+  padding-bottom: 3rem;
 }
 
 .word-container {
