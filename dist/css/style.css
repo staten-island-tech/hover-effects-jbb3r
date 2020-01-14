@@ -307,6 +307,17 @@ html {
   color: #8f63c9;
 }
 
+.projects {
+  position: relative;
+  padding: 2rem 3rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.projects:after, .projects:before {
+  content: " ";
+}
+
 .about:hover {
   color: rgba(255, 107, 181, 0.651);
 }

@@ -95,6 +95,15 @@ html{
 color: $purple;
 }
 
+.projects {
+  position: relative;
+  padding: 2rem 3rem;
+  transition: all 1s;
+  &:after,&:before{
+    content:" ";
+    
+  }
+}
 .about:hover {
 color: $pink;
 }
