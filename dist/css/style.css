@@ -289,8 +289,8 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-transform: translateY(-61rem);
-          transform: translateY(-61rem);
+  -webkit-transform: translateY(-57rem);
+          transform: translateY(-57rem);
   letter-spacing: .75rem;
   font-size: 4rem;
   -webkit-box-pack: space-evenly;
@@ -307,8 +307,8 @@ html {
   cursor: pointer;
   position: relative;
   padding: 10px 20px;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 .projects:after, .projects:before {
@@ -316,8 +316,8 @@ html {
   width: 10px;
   height: 10px;
   position: absolute;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 .projects:after {
@@ -343,8 +343,8 @@ html {
   cursor: pointer;
   position: relative;
   padding: 10px 20px;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 .about:after, .about:before {
@@ -352,8 +352,8 @@ html {
   width: 10px;
   height: 10px;
   position: absolute;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 .about:after {
@@ -379,8 +379,8 @@ html {
   cursor: pointer;
   position: relative;
   padding: 10px 20px;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 .contact:after, .contact:before {
@@ -388,8 +388,8 @@ html {
   width: 10px;
   height: 10px;
   position: absolute;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 .contact:after {

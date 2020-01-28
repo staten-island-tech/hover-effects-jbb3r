@@ -80,7 +80,7 @@ html{
 // for menu
 .word-container {
   display: flex;
-  transform: translateY(-61rem);
+  transform: translateY(-57rem);
   letter-spacing: .75rem;
   font-size: 4rem;
   justify-content: space-evenly;
@@ -95,13 +95,13 @@ html{
   cursor:pointer;
     position:relative;
     padding:10px 20px;
-    transition:all 1s;
+    transition:all .5s;
     &:after,&:before{
       content:" ";
       width:10px;
       height:10px;
       position:absolute;
-      transition:all 1s;
+      transition:all .5s;
       }
     &:after{
       top:-1px;
@@ -127,13 +127,13 @@ html{
     cursor:pointer;
       position:relative;
       padding:10px 20px;
-      transition:all 1s;
+      transition:all .5s;
       &:after,&:before{
         content:" ";
         width:10px;
         height:10px;
         position:absolute;
-        transition:all 1s;
+        transition:all .5s;
         }
       &:after{
         top:-1px;
@@ -159,13 +159,13 @@ html{
       cursor:pointer;
         position:relative;
         padding:10px 20px;
-        transition:all 1s;
+        transition:all .5s;
         &:after,&:before{
           content:" ";
           width:10px;
           height:10px;
           position:absolute;
-          transition:all 1s;
+          transition:all .5s;
           }
         &:after{
           top:-1px;
