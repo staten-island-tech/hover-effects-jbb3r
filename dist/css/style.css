@@ -152,6 +152,52 @@
   top: 4%;
   left: 2%;
   color: #2a054d;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.openbtn :before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(255, 107, 181, 0.651);
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  z-index: -1;
+}
+
+.openbtn :hover::before {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0 0 15px rgba(255, 107, 181, 0.651);
+          box-shadow: 0 0 15px rgba(255, 107, 181, 0.651);
+}
+
+.openbtn :hover {
+  color: rgba(255, 107, 181, 0.651);
+  -webkit-box-shadow: 0 0 5px rgba(255, 107, 181, 0.651);
+          box-shadow: 0 0 5px rgba(255, 107, 181, 0.651);
+  text-shadow: 0 0 5px rgba(255, 107, 181, 0.651);
+}
+
+.openbtn :hover::before {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0 0 15px rgba(255, 107, 181, 0.651);
+          box-shadow: 0 0 15px rgba(255, 107, 181, 0.651);
+}
+
+.openbtn :hover {
+  color: rgba(255, 107, 181, 0.651);
+  -webkit-box-shadow: 0 0 5px rgba(255, 107, 181, 0.651);
+          box-shadow: 0 0 5px rgba(255, 107, 181, 0.651);
+  text-shadow: 0 0 5px rgba(255, 107, 181, 0.651);
 }
 
 #main {
@@ -289,8 +335,8 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-transform: translateY(-57rem);
-          transform: translateY(-57rem);
+  -webkit-transform: translateY(-59rem);
+          transform: translateY(-59rem);
   letter-spacing: .75rem;
   font-size: 4rem;
   -webkit-box-pack: space-evenly;
