@@ -224,12 +224,9 @@ html {
 .header1 {
   position: relative;
   height: 100vh;
-}
-
-@media only screen and (min-width: 2400px) {
-  [class*=".header1"] {
-    min-width: 100%;
-  }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .slideshow {
